@@ -1,0 +1,183 @@
+*{
+    margin: 15px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Header*/
+
+.titulo{
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    color: #000000;
+}
+
+/*Menu*/
+
+.listaMenu{
+    list-style-type: none;
+    text-align: center;
+}
+
+    .listaMenu li{
+        display: inline;
+        padding: 0 30px;
+    }
+
+.menuItem{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #973ed6;
+}
+
+/*Inicio*/
+
+/*Imagen*/
+
+.imagenInicio{
+    display: block;
+    margin: 0 auto;
+    height: 63%;
+    width: 63%;
+}
+
+/*Columnas*/
+
+#sectionLorem{
+    display: flex;
+    justify-content: center;
+}
+
+    #sectionLorem article{
+        width: 300px;
+        display: inline-block;
+        margin: 50px 40px;
+        text-align: center;
+        border: 2px solid black;
+    }
+
+.articleLorem, .h2Lorem, .pLorem, .formTit, .formItem, .divForm, .formNews{
+    background-color: #d19ef9;
+}
+
+ /*Newsletter*/
+
+.btnLorem, .btnSus{
+    padding: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+    .btnNegro{
+        color: white;
+        width: 80px;
+        background-color: #000000;
+    }
+
+    .btnSus{
+        width: 120px;
+        color: white;
+        background-color: #000000;
+    }
+
+.formNews{
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    width: 680px;
+    margin: 0 auto;
+}
+
+.inputBlanco{
+    background-color: white;
+}
+
+
+/*Artistas*/
+
+#seccionArtistas section{
+    margin-left: 10%;
+    display: flex;
+}
+
+.artistasTexto{
+    float: left;
+    margin-top: 90px;
+    width: 300px;
+}
+
+.artistasCuadros{
+   float: right;
+}
+
+.cuadrosImagenes{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+/*Exposiciones*/
+
+#seccionExpos{
+    margin-left: 10%;
+}
+
+ .tablaFechas{
+    margin: 5% auto;
+    text-align: center;
+    border: 2px solid #d19ef9;
+    }
+
+    .tablaMes{
+        text-align: center;
+    }
+
+    .tablaDato{
+        text-align: left;
+        border: 2px solid #d19ef9;
+        padding: 15px;
+    }
+
+    .tablaFechas, .tablaMes{
+        padding: 15px;
+        background-color: #d19ef9;
+    }
+
+/*Nosotros*/
+
+    #seccionNosotros{
+        margin-left: 10%;
+        width: 800px;
+    }
+
+#staffLista{
+    margin: 0 auto;
+}
+
+    #staffLista li{
+        list-style-type: none;
+    }
+
+ /*Contacto*/
+
+ #contactoTit{
+     text-align: center;
+     margin-top: 3%;
+ }
+ #formContacto{
+     display: block;
+     text-align: center;
+ }
+
+/*Footer*/
+
+footer p{
+    text-align: center;
+    margin-top: 100px;
+}
